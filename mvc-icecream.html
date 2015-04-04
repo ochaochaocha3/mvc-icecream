@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>アイスクリームショップ</title>
+    <link rel="stylesheet" href="mvc-icecream.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>アイスクリームを選んでね！</h1>
+
+      <form>
+        <ul id="icecreams">
+          <!-- ここにビューがアイスクリーム一覧を構築する -->
+        </ul>
+
+        <p class="controller">
+          <button id="clear" type="button" disabled="disabled">クリア</button>
+        </p>
+      </form>
+
+      <div id="icecream-list">
+        <!-- ここにビューが現在の選択内容を書き込む -->
+      </div>
+    </div>
+
+    <script src="jquery-2.1.3.min.js"></script>
+    <script src="mvc-example.js"></script>
+  </body>
+</html>
